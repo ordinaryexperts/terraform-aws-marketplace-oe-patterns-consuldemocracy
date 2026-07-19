@@ -11,7 +11,7 @@ terraform {
 resource "aws_cloudformation_stack" "oe_patterns_consuldemocracy" {
   name = var.stack_name
 
-  template_url = "https://awsmp-cft-053155443450-1579814207723.s3.us-east-1.amazonaws.com/8c18abce-bdb4-45f6-b0cc-1e7da019d0bb/8c18abce-bdb4-45f6-b0cc-1e7da019d0bb/template.yaml"
+  template_url = "https://awsmp-cft-053155443450-1579814207723.s3.us-east-1.amazonaws.com/d6a0b915-6a1b-4448-b2ba-f78505d98236/d6a0b915-6a1b-4448-b2ba-f78505d98236/template.yaml"
 
   capabilities = ["CAPABILITY_NAMED_IAM"]
 
