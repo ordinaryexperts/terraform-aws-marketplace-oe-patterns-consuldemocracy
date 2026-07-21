@@ -1,6 +1,7 @@
 name: "Test OE Consul Democracy AWS Pattern Terraform Module"
  
 on:
+ workflow_dispatch:
  push:
    branches:
      - main
